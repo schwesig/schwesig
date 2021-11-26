@@ -2,6 +2,15 @@
 
 ### Hi there 👋
 
+- 🔭 I’m currently working on @Operate First project at Red Hat... and World Peace
+- 🌱 I’m currently learning how to understand The Ship Of Theseus & How To Become a Better Person
+- 👯 I’m looking to collaborate on everything... and World Peace
+- 🤔 I’m looking for help with understanding the World and Humans
+- 💬 Ask me about Loom
+- 📫 How to reach me: here and on a lot of channels with @schwesig
+- 😄 Pronouns: he/him/his
+- ⚡ Fun fact: I am a Roller Coaster Maniac and am still in Love with all the Disneylands, but Universal Studios is getting closer...
+
 <!--
 **schwesig/schwesig** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
