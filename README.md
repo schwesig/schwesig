@@ -1,4 +1,4 @@
-[![schwesig, Changes are Welcome!](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=Changes%20are%20Welcome%21&title=schwesig)](https://pimp-my-readme.webapp.io)
+[![schwesig, Changes are Welcome!](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=Changes%20are%20Welcome%21&title=Thor%20Sten%20schwesig)](https://pimp-my-readme.webapp.io)
 
 ### Hi there 👋
 
