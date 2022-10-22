@@ -11,6 +11,8 @@
 - 😄 Pronouns: he/him/his
 - ⚡ Fun fact: I am a Roller Coaster Maniac and am still in Love with all the Disneylands, but Universal Studios is getting closer...
 
+[![@schwesig's Holopin board](https://holopin.me/schwesig)](https://holopin.io/@schwesig)
+
 <!--
 **schwesig/schwesig** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
