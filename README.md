@@ -1,5 +1,5 @@
-[![schwesig, Changes are Welcome!](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=Changes%20are%20Welcome%21&title=Thorsten%20schwesig)](https://pimp-my-readme.webapp.io)
-
+<!-- [![schwesig, Changes are Welcome!](https://pimp-my-readme.webapp.io/pimp-my-readme/wavy-banner?subtitle=Changes%20are%20Welcome%21&title=Thorsten%20schwesig)](https://pimp-my-readme.webapp.io)
+-->
 ### Hi there 👋
 
 - 🔭 I’m currently working on @Operate First project at Red Hat... and World Peace
@@ -12,6 +12,9 @@
 - ⚡ Fun fact: I am a Roller Coaster Maniac and am still in Love with all the Disneylands, but Universal Studios is getting closer...
 
 [![@schwesig's Holopin board](https://holopin.me/schwesig)](https://holopin.io/@schwesig)
+
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=schwesig)](https://git.io/streak-stats)
 
 <!--
 **schwesig/schwesig** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
