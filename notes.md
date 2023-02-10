@@ -1,4 +1,5 @@
-# ChatGPT
+# [ChatGPT](https://openai.com/blog/chatgpt/)
+- https://chat.openai.com
 - better search engine
 - resume / cv
 - restaurant critics
@@ -38,11 +39,30 @@
 - essays on every topic
 - 
 
-# GPT3
+# [GPT3](https://openai.com/api/)
+- https://platform.openai.com/
 - marketing approach
 
-# Dall-E
+# [Dall-E](https://openai.com/dall-e-2/)
+- https://labs.openai.com/
 - presentation slide pictures
 - backgrounds
 
-# Grammarly
+# [Grammarly](https://app.grammarly.com/)
+- https://grammarly.com/
+
+# Tools
+ - https://onlinetools.com/random/shuffle-lines
+
+# Awesome Lists
+ - https://github.com/sindresorhus/awesome
+ - https://github.com/topics/awesome-list
+ - https://github.com/topics/awesome
+ - https://github.com/bayandin/awesome-awesomeness
+ - https://github.com/topics/awesome-lists
+ - https://github.com/cuuupid/awesome-lists
+ - https://github.com/MunGell/awesome-for-beginners
+ - https://github.com/awesome-lists/awesome-bash
+ - https://github.com/jslee02/awesome-projects
+ - https://github.com/jnv/lists
+ - 
