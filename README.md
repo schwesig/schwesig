@@ -2,9 +2,10 @@
 -->
 ### Hi there 👋
 
-- 🔭 I’m currently working on @Operate First project at Red Hat... and World Peace
+- 🔭 I’m currently working on Backstage & janus idp
+- 🔭 I worked on the Operate First project
 - 🌱 I’m currently learning how to understand The Ship Of Theseus & How To Become a Better Person
-- 👯 I’m looking to collaborate on everything... and World Peace
+- 👯 I’m looking to collaborate on everything
 - 🤔 I’m looking for help with understanding the World and Humans
 - 💬 Ask me about Loom
 - 📫 How to reach me: here and on a lot of channels with @schwesig
