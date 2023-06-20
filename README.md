@@ -17,7 +17,7 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=schwesig)](https://git.io/streak-stats)
 
-👋 Hello! I'm Thor, a passionate software developer with over [number] years of coding experience. I embarked on my coding journey at the young age of 10, starting with Basic and gradually exploring various coding languages and frameworks over the years.
+👋 Hello! I'm Thor, a passionate software developer with over 30 years of coding experience. I embarked on my coding journey at the young age of 10, starting with Basic and gradually exploring various coding languages and frameworks over the years.
 
 💼 Throughout my career, I have gained expertise in an array of technologies, including Basic, Pascal, Assembler, C, C++, C#, Python, JavaScript, Java, React, and more. This diverse skill set allows me to adapt to different projects and tackle complex challenges with ease.
 
