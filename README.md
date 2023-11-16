@@ -4,8 +4,8 @@
 
 - 🔭 I’m currently working with [NERC](https://nerc.mghpcc.org/) and [MOC Alliance](https://massopen.cloud/community/)
 - 🔭 I worked with [backstage.io](https://backstage.io/) & on [janus-idp.io](https://janus-idp.io/)
-- 🔭 I worked on the Operate First project
-- ⏲️ I am too late to the github party; now: don't understand how I ever could live without it
+- 🔭 I worked on the [Operate First](https://www.operate-first.cloud/) project
+- ⏲️ I am too late to the github party; now: I don't understand how I ever could live without it
 - 🌱 I’m currently learning how to understand The Ship Of Theseus & How To Become a Better Person
 - 👯 I’m looking to collaborate on everything
 - 🤔 I’m looking for help with understanding the World and Humans
