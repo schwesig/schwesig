@@ -1,3 +1,41 @@
+```mermaid
+---
+title: 202311 NERC
+---
+stateDiagram-v2
+    note left of nercOcpTest
+        Not part of
+        this description.
+    end note
+    note left of localCluster
+        nerc-ocp-infra =
+    end note
+
+    state ACM {
+        localCluster: local-cluster
+        localClusterNodes: Nodes = 3
+        localClusterAddOns: Add-Ons = 8
+
+        nercOcpProd: nerc-ocp-prod
+        nercOcpProdNodes: Nodes = 37
+        nercOcpProdAddOns: Add-Ons = 9
+
+        nercOcpTest: nerc-ocp-test
+        nercOcpTestNodes: Nodes = 13
+        nercOcpTestAddOns: Add-Ons = 9
+
+        localCluster --> localClusterNodes
+        localCluster --> localClusterAddOns
+
+        nercOcpProd --> nercOcpProdNodes
+        nercOcpProd --> nercOcpProdAddOns
+
+        nercOcpTest --> nercOcpTestNodes
+        nercOcpTest --> nercOcpTestAddOns
+
+    }
+```
+
 # Table of Contents
 1. [Use case](#use-case)
 1. [Background](#background)
@@ -22,16 +60,3 @@
 ### Event Driven Automation (data)
 ## Download diagrams
 ## Provide feedback <a name="provide-feedback"></a>
-
-```mermaid
----
-title: 202311 NERC
----
-stateDiagram-v2
-    [*] --> Still
-    Still --> [*]
-
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
