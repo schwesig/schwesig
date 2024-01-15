@@ -27,9 +27,9 @@ cluster" button.
 Fill in the cluster details:
 
 ```yaml
-name: nerc-ocp-infra
+name: nerc-ocp-obs
 base_domain: rc.fas.harvard.edu
-version: 4.10.x
+version: 4.10.x (?tbd 4.14.x)
 ```
 
 Leave the rest of the defaults and click next.
