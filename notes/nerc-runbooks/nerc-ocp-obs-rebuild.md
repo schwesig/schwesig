@@ -2,7 +2,7 @@
 
 # Procedure Overview
 
-1. [Bootstrapping nerc-ocp-infra](#bootstrapping-nerc-ocp-infra)
+1. [Bootstrapping nerc-ocp-obs](#bootstrapping-nerc-ocp-obs)
 1. [Hostpath Provisioner](#hostpath-provisioner)
 1. [Vault](#vault)
 1. [External Secrets](#external-secrets)
@@ -14,7 +14,7 @@
 1. [Advanced Cluster Management (ACM)](#acm)
 1. [Troubleshooting](#troubleshooting)
 
-## Bootstrapping nerc-ocp-infra
+## Bootstrapping nerc-ocp-obs
 
 ### Assisted installer
 
@@ -53,14 +53,14 @@ Copy the discovery ISO to nerc-bootstrap and extract
 ```sh
 $ ssh root@nerc-admin01
 [root@nerc-admin01 ~]# ssh nerc-bootstrap
-[root@nerc-bootstrap ~]# mkdir /srv/pxe/httpboot/openshift-discovery-iso/nerc-ocp-infra/$OPENSHIFT_VERSION_HERE
-[root@nerc-bootstrap ~]# cd /srv/pxe/httpboot/openshift-discovery-iso/nerc-ocp-infra/4.10.47
-[root@nerc-bootstrap 4.10.47]# wget -O discovery_image_nerc-ocp-infra.iso '$DISCOVERY_ISO_URL_HERE'
-[root@nerc-bootstrap 4.10.47]# bash /srv/repos/boot-openshift-ai/extract-iso.sh discovery_image_nerc-ocp-infra.iso
+[root@nerc-bootstrap ~]# mkdir /srv/pxe/httpboot/openshift-discovery-iso/nerc-ocp-obs/$OPENSHIFT_VERSION_HERE
+[root@nerc-bootstrap ~]# cd /srv/pxe/httpboot/openshift-discovery-iso/nerc-ocp-obs/4.10.47
+[root@nerc-bootstrap 4.10.47]# wget -O discovery_image_nerc-ocp-obs.iso '$DISCOVERY_ISO_URL_HERE'
+[root@nerc-bootstrap 4.10.47]# bash /srv/repos/boot-openshift-ai/extract-iso.sh discovery_image_nerc-ocp-obs.iso
 config.ign
 18 blocks
 [root@nerc-bootstrap 4.10.47]# ls
-config.ign  discovery_image_nerc-ocp-infra.iso  images
+config.ign  discovery_image_nerc-ocp-obs.iso  images
 ```
 
 Submit a merge request to nerc-ansible repo to set `ocp_version` for the three
@@ -80,15 +80,15 @@ On the "Network" page leave the defaults and fill in the API and Ingress IPs
 with the following addresses:
 
 ```yaml
-api_ip: 10.30.9.5
-ingress_ip: 10.30.9.6
+api_ip: 10.30.9.15
+ingress_ip: 10.30.9.16
 ```
 
 These come from from DNS, e.g.:
 
 ```sh
-nslookup api.nerc-ocp-infra.rc.fas.harvard.edu
-nslookup lb.nerc-ocp-infra.rc.fas.harvard.edu
+nslookup api.nerc-ocp-obs.rc.fas.harvard.edu
+nslookup lb.nerc-ocp-obs.rc.fas.harvard.edu
 ```
 
 Press the "Next" button.
@@ -99,7 +99,7 @@ Wait for the installation to finish successfully.
 
 Securely download both the kubeconfig and the kubeadmin password locally.
 
-Update the nerc-ocp-infra/kubeadmin vault secret with the new kubeadmin
+Update the nerc-ocp-obs/kubeadmin vault secret with the new kubeadmin
 password.
 
 ### Clear CEPH RBD Pool (if necessary)
@@ -152,13 +152,13 @@ podman run --rm -it --privileged --network=host -v /root/ceph:/etc/ceph --entryp
 Verify you can see the rbds and debug issues if not:
 
 ```sh
-rbd ls --id node-nerc-ocp-infra-1-rbd --pool nerc_ocp_infra_1_rbd
+rbd ls --id node-nerc-ocp-obs-1-rbd --pool nerc_ocp_obs_1_rbd
 ```
 
 Remove all RBD images in the pool:
 
 ```sh
-rbd ls --id node-nerc-ocp-infra-1-rbd --pool nerc_ocp_infra_1_rbd | xargs -tl1 -I % rbd --id node-nerc-ocp-infra-1-rbd rm nerc_ocp_infra_1_rbd/%
+rbd ls --id node-nerc-ocp-obs-1-rbd --pool nerc_ocp_obs_1_rbd | xargs -tl1 -I % rbd --id node-nerc-ocp-obs-1-rbd rm nerc_ocp_obs_1_rbd/%
 ```
 
 ### Install All Operators and Machine Configs
@@ -202,7 +202,8 @@ oc get mcp
 
 Update cluster ID in the `OCP-on-NERC/nerc-ocp-config` repo, e.g.:
 
-<https://github.com/OCP-on-NERC/nerc-ocp-config/pull/180>
+- [e.g. infra](https://github.com/OCP-on-NERC/nerc-ocp-config/pull/180)
+- [obs](https://github.com/OCP-on-NERC/nerc-ocp-config/pull/337/files#diff-366fe600eb527bbd4f5d3bb6e305f6f5471a03ab16228697367c2165a25affd1)
 
 You can fetch the cluster ID using:
 
