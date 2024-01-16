@@ -13,6 +13,7 @@
 - 📫 How to reach me: here and on a lot of channels with @schwesig
 - 😄 Pronouns: he/him/his
 - ⚡ Fun fact: I am a Roller Coaster Maniac and am still in Love with all the Disneylands, but Universal Studios is getting closer...
+- 👯 @b4mad
 
 [![@schwesig's Holopin board](https://holopin.me/schwesig)](https://holopin.io/@schwesig)
 
