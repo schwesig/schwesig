@@ -17,7 +17,7 @@
 
 [![@schwesig's Holopin board](https://holopin.me/schwesig)](https://holopin.io/@schwesig)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=schwesig&theme=tokyonight&border_radius=7&exclude_days=Sun%2CSat)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=schwesig&theme=tokyonight&border_radius=7&exclude_days=Sun)](https://git.io/streak-stats)
 
 👋 Hello! I'm Thor, a passionate software developer with over 35 years of coding experience. I embarked on my coding journey at the young age of 10, starting with Basic and gradually exploring various coding languages and frameworks over the years.
 
